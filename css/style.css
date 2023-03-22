@@ -52,6 +52,25 @@ main {
     position: absolute;
     left: auto;
     top: -5%;
+    transform: translate(0px);
+    animation: floap 5s ease-in-out infinite;
+}
+
+@keyframes floap{
+    0% {
+        transform: translate(0px);
+
+    }
+    50% {
+        transform: translate(-30px);
+
+    }
+    100% {
+        transform: translate(0px);
+
+    }
+
+
 }
 
 .titulo {
